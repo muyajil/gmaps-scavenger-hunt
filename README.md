@@ -21,8 +21,8 @@ The folder `public/data` contains examples of files you need to provide.
 
 1. Create a folder `data` that contains the files mentioned above with your content.
 2. Create a `.env` file according to `.env_template`
-    2.1 `MAPS_API_KEY`: Create a Google Maps API Key (https://developers.google.com/maps/documentation/javascript/get-api-key) 
-    2.2 `SUCCESS_REDIRECT_URL`: Redirect to this URL after the last challenge was solved.
+    - `MAPS_API_KEY`: Create a Google Maps API Key (https://developers.google.com/maps/documentation/javascript/get-api-key) 
+    - `SUCCESS_REDIRECT_URL`: Redirect to this URL after the last challenge was solved.
 3. Use the following docker-compose configuration:
 ```
 version: '3.5'
