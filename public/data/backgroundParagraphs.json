@@ -1,0 +1,5 @@
+[
+   "These are the paragraphs of the background story.",
+   "This will be displayed first with a button to start the mission.",
+   "Each element of this list will be rendered inside a <p> tag."
+]

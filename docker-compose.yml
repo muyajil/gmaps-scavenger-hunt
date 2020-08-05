@@ -1,0 +1,12 @@
+version: '3.5'
+
+services:
+  frontend:
+    image: muyajil/gmaps-scavenger-hunt:latest
+    build:
+      context: .
+    environment:
+        MAPS_API_KEY: ${MAPS_API_KEY}
+        SUCCESS_REDIRECT_URL: ${SUCCESS_REDIRECT_URL}
+    ports:
+      - 3001:80

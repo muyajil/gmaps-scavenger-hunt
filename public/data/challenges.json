@@ -1,0 +1,29 @@
+[
+    {
+        "lat": 40.689240, 
+        "long": -74.044527,
+        "challenger": "1",
+        "challengeHeader": "This is the first challenge header.",
+        "challengeParagraphs": [
+            "Challenge Paragraph 1",
+            "Challenge Paragraph 2"
+        ],
+        "challengePasswords": [
+            "challengePassword1",
+            "challengePassword2"
+        ]
+    },
+    {
+        "lat": 40.757957,
+        "long": -73.985566,
+        "challenger": "2",
+        "challengeHeader": "This is the second challenge header.",
+        "challengeParagraphs": [
+            "Challenge Paragraph 1",
+            "Challenge Paragraph 2"
+        ],
+        "challengePasswords": [
+            "challengePassword1"
+        ]
+    }
+]
