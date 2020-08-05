@@ -24,6 +24,7 @@ The folder `public/data` contains examples of files you need to provide.
     - `MAPS_API_KEY`: Create a Google Maps API Key (https://developers.google.com/maps/documentation/javascript/get-api-key) 
     - `SUCCESS_REDIRECT_URL`: Redirect to this URL after the last challenge was solved.
 3. Use the following docker-compose configuration:
+
 ```
 version: '3.5'
 
@@ -38,4 +39,5 @@ services:
     ports:
       - 3001:80
 ```
+
 4. Host this somewhere and play!
