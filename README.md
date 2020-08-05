@@ -29,13 +29,13 @@ The folder `public/data` contains examples of files you need to provide.
 version: '3.5'
 
 services:
-  frontend:
+  hunt:
     image: muyajil/gmaps-scavenger-hunt:latest
     environment:
         MAPS_API_KEY: ${MAPS_API_KEY}
         SUCCESS_REDIRECT_URL: ${SUCCESS_REDIRECT_URL}
     volumes:
-        /path/to/data/:/usr/share/nginx/html/data/
+        - /path/to/data/:/usr/share/nginx/html/data/
     ports:
       - 3001:80
 ```
