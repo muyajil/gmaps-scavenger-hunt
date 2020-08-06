@@ -14,7 +14,7 @@ The folder `public/data` contains examples of files you need to provide.
 
 - `avatar.png`: This image will be displayed as the marker of the user on the map.
 - `banner.png`: This image will be used on the welcome screen when the backstory is displayed.
-- `challeges.json`: This file contains the challenges and the passwords for the Scavenger Hunt. See the file for an example.
+- `challenges.json`: This file contains the challenges and the passwords for the Scavenger Hunt. See the file for an example.
 - `backgroundParagraphs.json`: This file contains the backstory of the application.
 
 ## Setup and Run
