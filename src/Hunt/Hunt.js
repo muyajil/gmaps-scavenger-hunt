@@ -13,12 +13,12 @@ class Hunt extends React.Component {
       targetFound: false
     }
 
+    this.nextStage = this.nextStage.bind(this);
+    this.targetFound = this.targetFound.bind(this);
+
     fetch('data/challenges.json')
     .then((res) => res.json())
     .then((data) => this.setState({challenges: data}))
-
-    this.nextStage = this.nextStage.bind(this);
-    this.targetFound = this.targetFound.bind(this);
   }
 
   nextStage(){
