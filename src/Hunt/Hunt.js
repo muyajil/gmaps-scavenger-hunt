@@ -6,10 +6,18 @@ class Hunt extends React.Component {
   constructor(props) {
     super(props);
 
-    // TODO: if stage is specified in url query use this state as initial state
+    let currentStage = 0;
+
+    const search = window.location.search;
+    const params = new URLSearchParams(search);
+    const paramStage = params.get('stage');
+
+    if (paramStage){
+      currentStage = parseInt(paramStage);
+    }
 
     this.state = {
-      currentStage: 0,
+      currentStage: currentStage,
       targetFound: false
     }
 
