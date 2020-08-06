@@ -14,8 +14,12 @@ class Hunt extends React.Component {
     }
 
     fetch('data/challenges.json')
-    .then((res) => res.json())
-    .then((data) => this.setState({challenges: data}));
+    .then((res) => {
+      console.log(res);
+      res.json();
+    })
+    .then((data) => this.setState({challenges: data}))
+    .catch((err) => console.error(err))
 
     this.nextStage = this.nextStage.bind(this);
     this.targetFound = this.targetFound.bind(this);
